@@ -1,0 +1,152 @@
+.Nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: hsl(0, 0%, 98%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:  1000;
+    gap: 7em;
+}
+
+.nav-content {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    cursor: pointer;
+    color: #808080;
+}
+
+.nav-content  li:hover::after  {
+  content: '';
+  background: linear-gradient(to right, hsl(136, 65%, 51%),  hsl(192, 70%, 51%));;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+}
+
+.nav-content .home::after {
+  width: 38px;
+}
+
+.nav-content .about::after {
+  width: 38px;
+}
+
+.nav-content .contact::after {
+  width: 50px;
+}
+
+.nav-content .blog::after {
+  width: 30px;
+}
+
+.nav-content .careers::after {
+  width: 50px;
+}
+
+.nav-btn {
+    border-radius: 25px;
+    border: 1px solid #808080;
+    color: #fff;
+    background:  linear-gradient(to right, hsl(136, 65%, 51%),  hsl(192, 70%, 51%));
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+   filter: opacity(0.7);
+}
+
+
+.hamburger {
+    cursor: pointer;
+    height: 15px;
+    width: 30px;
+    display: none;
+    background-image: url('../images/icon-hamburger.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hamburger.toggle {
+  background-image: url('../images/icon-close.svg');
+  cursor: pointer;
+  height: 20px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+    .Nav {
+      gap: 2em;
+    }
+
+    .nav-content {
+      gap: 1em;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-content {
+    display: none;
+  }
+
+  .Nav {
+      justify-content: space-between;
+      padding: 20px 40px;
+  }
+  .nav-btn {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #fff;
+    top: -300px;
+    right: 50px;
+    left: 50px;
+    padding: 60px 40px;
+    border-radius: 8px;
+    transition: all ease-in-out 350ms;
+  }
+
+  .mobile.nav {
+    top: 65px;
+    transition: all ease-in-out 350ms;
+  }
+
+  .mobile-list {
+    list-style: none;
+    text-align: center;
+  }
+
+  .mobile-list li {
+    padding-bottom: 20px;
+  }
+
+  .mobile-list li:hover {
+    color:  hsl(136, 65%, 51%);
+  }
+}

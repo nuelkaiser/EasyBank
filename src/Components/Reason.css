@@ -1,0 +1,35 @@
+.reason-container {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+}
+
+h2 {
+    padding-top: 2em;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .reason-container {
+        gap: .5em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media  (max-width: 425px) {
+    .reason-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: revert;
+    }
+}

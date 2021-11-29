@@ -1,0 +1,47 @@
+.why-space {
+    padding: 160px 120px;
+    background: hsl(0, 0%, 98%);
+}
+
+.why-space p {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    line-height: 1.5em;
+}
+
+.why-space h1 {
+    font-weight: 400;
+    font-size: 37px;
+}
+
+@media (max-width: 1024px) {
+    .why-space {
+        padding: 115px 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .why-space p {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 425px) {
+    .why-space > div {
+        text-align: center;
+    }
+
+    .why-space p {
+        font-size: initial;
+    }
+}
+
+@media (max-width: 320px) {
+    .why-space h1 {
+        font: 28px;
+    }
+
+    .why-space p {
+        font-size: small;
+    }
+}
