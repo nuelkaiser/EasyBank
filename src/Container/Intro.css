@@ -104,6 +104,10 @@
         background-size: contain;
     }
 
+    .intro h1 {
+        font-size: 46px;
+    }
+
     .intro > div {
         padding-left: 0;
         margin-top: 3em;
@@ -131,12 +135,12 @@
 
 @media (max-width: 375px) {
     .intro {
-        background-position: right 0em bottom 16.5em;
+        background-position: right 0em bottom 19.5em;
         margin-top: -5em;
     }
 
     .intro h1 {
-        font-size: 40px;
+        font-size: 39px;
     }
 
     .intro-lap {
@@ -146,17 +150,18 @@
     .para-mobile {
         padding-top: 40px;
         margin: -1em;
+        font-size: 15px;
     }
 }
 
 @media (max-width: 320px) {
     .intro {
-        background-position: right 0em bottom 15.3em;
+        background-position: right 0em bottom 18.3em;
         margin-top: -4em;
     }
 
     .intro h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .para-mobile {
