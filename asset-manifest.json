@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EasyBank/static/css/main.a275c329.chunk.css",
+    "main.css": "/EasyBank/static/css/main.b623b014.chunk.css",
     "main.js": "/EasyBank/static/js/main.48a3c860.chunk.js",
     "main.js.map": "/EasyBank/static/js/main.48a3c860.chunk.js.map",
     "runtime-main.js": "/EasyBank/static/js/runtime-main.e77b59ca.js",
@@ -10,7 +10,7 @@
     "static/js/3.c7ca2bc3.chunk.js": "/EasyBank/static/js/3.c7ca2bc3.chunk.js",
     "static/js/3.c7ca2bc3.chunk.js.map": "/EasyBank/static/js/3.c7ca2bc3.chunk.js.map",
     "index.html": "/EasyBank/index.html",
-    "static/css/main.a275c329.chunk.css.map": "/EasyBank/static/css/main.a275c329.chunk.css.map",
+    "static/css/main.b623b014.chunk.css.map": "/EasyBank/static/css/main.b623b014.chunk.css.map",
     "static/js/2.2992ccc0.chunk.js.LICENSE.txt": "/EasyBank/static/js/2.2992ccc0.chunk.js.LICENSE.txt",
     "static/media/Intro.css": "/EasyBank/static/media/bg-intro-mobile.c2ed38d0.svg",
     "static/media/icon-api.74c8ad17.svg": "/EasyBank/static/media/icon-api.74c8ad17.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.e77b59ca.js",
     "static/js/2.2992ccc0.chunk.js",
-    "static/css/main.a275c329.chunk.css",
+    "static/css/main.b623b014.chunk.css",
     "static/js/main.48a3c860.chunk.js"
   ]
 }
